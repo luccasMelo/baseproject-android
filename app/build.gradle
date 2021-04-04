@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -28,6 +29,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    dataBinding {
+        enabled = true
     }
 }
 
@@ -64,4 +68,8 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:2.3.0"
 
     api project(":baselibrary")
+
+    //DataBinding
+    kapt "com.android.databinding:compiler:$android_plugin_version"
+
 }

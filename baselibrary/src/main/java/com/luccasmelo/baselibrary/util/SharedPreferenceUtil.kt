@@ -1,4 +1,4 @@
-package com.luccamelo.util
+package com.luccasmelo.baselibrary.util
 
 import android.content.Context
 import com.google.gson.Gson

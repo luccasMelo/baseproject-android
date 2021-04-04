@@ -2,10 +2,14 @@ package com.luccasmelo.baseproject
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.luccasmelo.baselibrary.ui.activity.BaseActivity
+import com.luccasmelo.baselibrary.viewmodel.BaseViewModel
+import com.luccasmelo.baseproject.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivity<BaseViewModel, ActivityMainBinding>(R.layout.activity_main) {
+
+    override fun onCreate() {
+
     }
+
 }
