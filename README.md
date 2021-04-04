@@ -1,4 +1,4 @@
-# Base Android Project (MVVM) [![](https://jitpack.io/v/luccasMelo/kotlin-utils.svg)](https://jitpack.io/#luccasMelo/baseproject-android)
+# Base Android Project (MVVM) [![](https://jitpack.io/v/luccasMelo/baseproject-android.svg)](https://jitpack.io/#luccasMelo/baseproject-android)
 
 This project provides basic features and architecture for most types of projects
 
