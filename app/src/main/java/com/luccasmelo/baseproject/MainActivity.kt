@@ -6,7 +6,7 @@ import com.luccasmelo.baselibrary.ui.activity.BaseActivity
 import com.luccasmelo.baselibrary.viewmodel.BaseViewModel
 import com.luccasmelo.baseproject.databinding.ActivityMainBinding
 
-class MainActivity : BaseActivity<BaseViewModel, ActivityMainBinding>(R.layout.activity_main) {
+class MainActivity : BaseActivity<BaseViewModel, ActivityMainBinding>(R.layout.activity_main, BaseViewModel::class.java) {
 
     override fun onCreate() {
 

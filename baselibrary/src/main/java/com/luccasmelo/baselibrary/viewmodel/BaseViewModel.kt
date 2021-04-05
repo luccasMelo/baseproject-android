@@ -1,9 +1,12 @@
 package com.luccasmelo.baselibrary.viewmodel
 
 import androidx.lifecycle.ViewModel
+import androidx.navigation.NavController
 
-abstract class BaseViewModel : ViewModel() {
+class BaseViewModel : ViewModel() {
 
-    abstract fun onCreate()
+    fun onCreate(navController:NavController){
+
+    }
 
 }
