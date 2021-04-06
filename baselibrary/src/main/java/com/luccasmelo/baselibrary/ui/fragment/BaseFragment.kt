@@ -30,7 +30,11 @@ abstract class BaseFragment<A : BaseActivity<V, AB>, V : BaseViewModel, B : View
         binding = DataBindingUtil.inflate(inflater,layoutResource, container,false)
 
 
+        onCreate()
+
         return binding.root
 
     }
+
+    abstract fun onCreate()
 }
