@@ -6,7 +6,7 @@ import androidx.navigation.NavController
 open class BaseViewModel : ViewModel() {
     lateinit var navController: NavController
 
-    fun onCreate(navController: NavController) {
+   open fun onCreate(navController: NavController) {
         this.navController = navController
     }
 
